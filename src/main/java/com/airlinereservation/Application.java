@@ -19,7 +19,7 @@ import okhttp3.Response;
 
 @SpringBootApplication
 @ComponentScan("com.airlinereservation.ConfigProperties")
-public class FindFlights {
+public class Application {
 	
 	@Bean
 	ConfigProperties myConfig() {
@@ -27,7 +27,7 @@ public class FindFlights {
     }
 
 	public static void main(String args[]) throws IOException, JSONException {
-		ApplicationContext ctx = SpringApplication.run(FindFlights.class, args);
+		ApplicationContext ctx = SpringApplication.run(Application.class, args);
 		ConfigProperties myConfig = ctx.getBean(ConfigProperties.class);
 		 OkHttpClient client = new OkHttpClient();
 

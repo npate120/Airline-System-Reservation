@@ -12,10 +12,10 @@ public class ConfigProperties {
 	@Value("${url}")
 	private String url;
 	
-	@Value("${x-rapidapi-host}")
+	@Value("${apiHost}")
 	private String rapidApiHost;
 	
-	@Value("${x-rapidapi-key}")
+	@Value("${apikey}")
 	private String rapidApiKey;
 
 	public String getRapidApiHost() {
