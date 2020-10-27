@@ -6,5 +6,5 @@ Skyscanner Api link: https://rapidapi.com/skyscanner/api/skyscanner-flight-searc
 
 How to run:
 Run as Configuration, in the Environment tab add placeName and value as you want, so for example
-Name   			Value
-placeName      Charlotte Douglas
+Name:placeName      
+Value:Charlotte Douglas
